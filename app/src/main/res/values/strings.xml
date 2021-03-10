@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Escola de Idiomas</string>
+    <string name="opcaoIngles">Ingles</string>
+    <string name="opcaoEspanhol">Espanhol</string>
+    <string name="opcaoAvista">A vista</string>
+    <string name="btnCalcular">Calcular</string>
+</resources>
