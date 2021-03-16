@@ -42,6 +42,10 @@ public class MainActivity extends AppCompatActivity {
             valor -= valor * 0.1;
         }
 
-        Toast.makeText(this, "O valor do curso é R$" + valor, Toast.LENGTH_SHORT).show();
+        if(!checkIngles && !checkEspanhol) {
+            Toast.makeText(this, "Marque pelo menos um curso!", Toast.LENGTH_SHORT).show();
+        } else {
+            Toast.makeText(this, "O valor do curso é R$" + valor, Toast.LENGTH_SHORT).show();
+        }
     }
 }
